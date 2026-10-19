@@ -1,6 +1,5 @@
 /* ELO Student Resource Portal — mobile-first stylesheet
-   UM colors: blue #00274c, maize #ffcb05
-   Grid used on index (Featured Programs), student_discovery (story cards), and the footer. */
+   UM colors: blue #00274c, maize #ffcb05 */
 
 body {
   font-family: Georgia, serif;
@@ -13,7 +12,6 @@ main {
   padding: 15px;
 }
 
-/* Skip link — hidden until focus */
 .skip a,
 header a[href="#main"] {
   position: absolute;
@@ -31,7 +29,6 @@ header a[href="#main"]:focus {
   top: 0;
 }
 
-/* Header */
 header {
   background-color: #00274c;
   padding: 15px;
@@ -52,7 +49,6 @@ header h1 {
   margin-top: 15px;
 }
 
-/* Navigation — mobile-first, stacked full-width */
 nav ul {
   list-style: none;
   margin: 0;
@@ -73,7 +69,6 @@ nav a {
   border-bottom: 1px solid #335270;
 }
 
-/* Active page — not color alone: maize underline bar */
 nav a.active {
   color: #ffcb05;
   border-bottom: 4px solid #ffcb05;
@@ -88,7 +83,6 @@ nav a.active:focus {
 }
 
 
-/* Headings and text */
 h2 {
   color: #00274c;
   font-size: 24px;
@@ -116,7 +110,6 @@ main a {
   text-decoration: underline;
 }
 
-/* Lists */
 ul, ol {
   padding-left: 25px;
   margin-bottom: 15px;
@@ -126,7 +119,6 @@ li {
   margin-bottom: 8px;
 }
 
-/* Images — fluid */
 main img {
   max-width: 100%;
   height: auto;
@@ -134,7 +126,6 @@ main img {
   margin: 15px auto;
 }
 
-/* Articles as cards */
 article {
   background-color: #f2f4f7;
   border-left: 5px solid #ffcb05;
@@ -142,7 +133,6 @@ article {
   margin-bottom: 15px;
 }
 
-/* Video — fluid */
 iframe {
   max-width: 100%;
   width: 100%;
@@ -151,7 +141,6 @@ iframe {
   margin: 15px 0;
 }
 
-/* GRID — card layout (index Featured Programs, student_discovery stories) */
 .card-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -162,7 +151,6 @@ iframe {
   margin-bottom: 0;
 }
 
-/* Aside */
 aside {
   background-color: #00274c;
   color: #ffffff;
@@ -175,7 +163,6 @@ aside a {
   color: #ffcb05;
 }
 
-/* Footer — grid, same across all pages */
 footer {
   background-color: #00274c;
   color: #ffffff;
@@ -198,7 +185,6 @@ footer address {
   font-style: normal;
 }
 
-/* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   .skip a,
   header a[href="#main"] {
