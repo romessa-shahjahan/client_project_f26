@@ -73,17 +73,18 @@ nav a {
   border-bottom: 1px solid #335270;
 }
 
+/* Active page — not color alone: maize underline bar */
+nav a.active {
+  color: #ffcb05;
+  border-bottom: 4px solid #ffcb05;
+}
+
 nav a:hover,
 nav a:focus {
   background-color: #ffcb05;
   color: #00274c;
 }
 
-/* Active page — not color alone: maize underline bar */
-nav a.active {
-  color: #ffcb05;
-  border-bottom: 4px solid #ffcb05;
-}
 
 /* Headings and text */
 h2 {
